@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:attribute="http://schemas.android.com/tools"
+    tools:context=".homeActivity"
+
+    >
+
+    <developer.shivam.crescento.CrescentoContainer
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:elevation="1dp"
+        attribute:curvature="10dp"
+        attribute:curvatureDirection="outward">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:alpha="1"
+            android:src="@drawable/background_gradient"/>
+
+        <TextView
+            android:id="@+id/statusBarHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Sejarah kota"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/breeserif_regular" />
+
+        <ImageButton
+            android:id="@+id/profil"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/icon_profile"
+            />
+
+    </developer.shivam.crescento.CrescentoContainer>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_kota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        tools:listitem="@layout/item_list_kota"/>
+
+</RelativeLayout>

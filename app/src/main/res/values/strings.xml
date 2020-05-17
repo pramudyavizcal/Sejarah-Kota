@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sejarah Kota</string>
+    <string name="kota_name">namaKota</string>
+    <string name="kota_detail">DetailKota</string>
+    <string name="btn_edit">Edit</string>
+    <string name="nama">Pramudya Vizkal Arfianto</string>
+    <string name="alamat">Klojen, Malang</string>
+    <string name="title_bio">Bio</string>
+    <string name="txt_bio">Tidak ada orang pintar yang ada adalah orang yang terus berusaha. Terimakasih Dicoding :)</string>
+    <string name="title_email">Email</string>
+    <string name="txt_email">pramudyakingdom@gmail.com</string>
+    <string name="title_telp">Kontak</string>
+    <string name="txt_telp">082302039545</string>
+    <string name="title_umur">Umur</string>
+    <string name="txt_umur">20 tahun</string>
+    <string name="txt_alamat">Jl Bukittanggul Kota Malang</string>
+</resources>
